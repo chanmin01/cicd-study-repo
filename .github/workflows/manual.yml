@@ -1,4 +1,4 @@
-name: manual.yml
+name: Manual
 on:
   workflow_dispatch:
     inputs:
