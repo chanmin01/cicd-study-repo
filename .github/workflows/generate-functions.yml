@@ -1,5 +1,5 @@
 name: generate-functions.yml
-on: push
+on: workflow_dispatch
 jobs:
   generate:
     runs-on: ubuntu-latest
