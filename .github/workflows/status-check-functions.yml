@@ -1,5 +1,5 @@
 name: status-check-functions.yml
-on: push
+on: workflow_dispatch
 jobs:
   fail:
     runs-on: ubuntu-latest
