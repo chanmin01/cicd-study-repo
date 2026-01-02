@@ -1,5 +1,5 @@
 name: conditions-workflow.yml
-on: push
+on: workflow_dispatch
 jobs:
   skip-or-run:
     if: ${{ github.actor == 'octocat' }}
